@@ -9,7 +9,7 @@ huedistribution is designed to be run on Hadoop.
 Usage
 -----
 
-To build first set environment variable HADOOP_HOME for example with 
+First set environment variable HADOOP_HOME for example with 
 
 ```sh
 export HADOOP_HOME=$HOME/hadoop
