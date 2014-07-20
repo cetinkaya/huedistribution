@@ -12,10 +12,7 @@ Usage
 To build first set environment variable HADOOP_HOME for example with 
 
 ```sh
-
 export HADOOP_HOME=$HOME/hadoop
-
-
 ```
 
 then run shell script build.sh provided with huedistribution. 
@@ -23,8 +20,6 @@ then run shell script build.sh provided with huedistribution.
 To calculate distribution of HUE values huedistribution over Hadoop, you can use 
 
 ```sh
-
 $HADOOP_HOME/bin/hadoop jar huedistribution.jar ac.ahmet.analysis.HueDistribution examples/input examples/output 
-
 ```
 
